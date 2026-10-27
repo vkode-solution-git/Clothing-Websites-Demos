@@ -461,7 +461,21 @@ Shopify.SignInWithShop.User.recognized = false;</script>
           font-size: 1.6rem;
         }
       }
-    </style>
+    
+    /* Paridhan Collection logo image */
+    .header__heading-logo.paridhan-logo-image {
+      width: 180px !important;
+      max-width: min(42vw, 180px) !important;
+      height: auto !important;
+      object-fit: contain !important;
+    }
+    @media screen and (max-width: 749px) {
+      .header__heading-logo.paridhan-logo-image {
+        width: 138px !important;
+        max-width: 38vw !important;
+      }
+    }
+</style>
 
     <link href="cdn/shop/t/6/assets/base6f0b.css?v=152851097931918809371788979449" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="cdn/shop/t/6/assets/component-cart-items6d32.css?v=123238115697927560811728665818" media="print" onload="this.media='all'"><link href="cdn/shop/t/6/assets/component-cart-drawere261.css?v=112801333748515159671728665818" rel="stylesheet" type="text/css" media="all" />
@@ -3268,7 +3282,7 @@ body:not(.has-transparent-header) .header-wrapper.is-scrolled {
 
                 
 
-                <span class="header__heading-logo paridhan-wordmark" aria-label="Paridhan Collection">PARIDHAN COLLECTION</span>
+                <img src="paridhan-logo.png" alt="Paridhan Collection" class="header__heading-logo paridhan-logo-image" loading="eager">
 
               </div></a></h1><!-- =====================================================
          DESKTOP NAVIGATION
