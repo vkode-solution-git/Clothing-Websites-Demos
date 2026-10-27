@@ -1,0 +1,37 @@
+HTTrack3.50-5 launched on Tue, 27 Oct 2026 19:36:57 at https://zartari.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(httrack -O "/storage/emulated/0/HTTrack/Websites/Clothing Website" https://zartari.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -%k -%P -%F "<!-- Mirrored from {url} by HTTrack Website Copier/3.x [XR&CO], {date} -->" -%l en,* -u1 -s2 -%s -%u -%f -D -a -K0 -H0 -p3 -N0 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:41:44	Info: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://cdn.shopify.com:443/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js (from https://zartari.in/)
+19:41:44	Info: 	Retry after error -4 (No data (connection closed)) at link https://zartari.in/cdn/shopifycloud/portable-wallets/latest/portable-wallets.en.js (from https://zartari.in/)
+19:41:44	Info: 	Retry after error -4 (No data (connection closed)) at link https://zartari.in/cdn/fonts/jost/jost_n4.d47a1b6347ce4a4c9f437608011273009d91f2b7.woff2 (from https://zartari.in/)
+19:41:54	Error: 	"Not Found" (404) at link https://zartari.in/cdn (from https://zartari.in/)
+19:41:54	Error: 	"Not Found" (404) at link https://zartari.in/api/collect (from https://zartari.in/)
+19:43:51	Error: 	Exit requested by shell or user
+19:43:51	Warning: 	File not added due to mirror cancel: https://zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376&width=720
+19:43:51	Warning: 	File not added due to mirror cancel: https://zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376&width=720
+19:43:51	Warning: 	File not added due to mirror cancel: https://zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376&width=720
+19:43:51	Warning: 	File not added due to mirror cancel: https://zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376&width=720
+19:43:51	Warning: 	File not added due to mirror cancel: zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376&width=940
+19:43:51	Warning: 	File not added due to mirror cancel: zartari.in/cdn/shop/files/ChatGPTImageJul25_2026_06_29_08PM.png?v=1784984376
+19:43:53	Info: 	Retry after error -4 (Interrupted transfer) at link https://zartari.in/collections/new-arrivals (from https://zartari.in/)
+19:43:53	Info: 	Retry after error -4 (No data (connection closed)) at link https://zartari.in/collections (from https://zartari.in/)
+19:43:53	Info: 	Retry after error -4 (No data (connection closed)) at link zartari.in/cdn/shop/files/WP.png?v=1782371863&width=600 (from https://zartari.in/)
+19:43:53	Error: 	"Not Found" (404) at link https://zartari.in/pages/wishlist (from https://zartari.in/)
+19:43:54	Error: 	"Not Found" (404) at link https://zartari.in/pages/media (from https://zartari.in/)
+19:43:54	Error: 	"Not Found" (404) at link https://zartari.in/pages/resellers (from https://zartari.in/)
+19:43:54	Error: 	"Not Found" (404) at link https://zartari.in/pages/artisans (from https://zartari.in/)
+19:43:57	Error: 	Exit requested by shell or user
+19:43:57	Error: 	Exit requested by shell or user
+19:43:57	Warning: 	Mirror aborted: keeping all previously mirrored files
+
+HTTrack Website Copier/3.50-5 mirror aborted after 7 minutes 0 seconds : 505 links scanned, 483 files written (248999943 bytes overall) [237732517 bytes received at 566029 bytes/sec], 17104334 bytes transferred using HTTP compression in 262 files, ratio 23%, 14.5 requests per connection
+(9 errors, 7 warnings, 6 messages)
+19:43:57	Error: 	Exit requested by shell or user
+* * MIRROR ABORTED! * *
+The mirror stopped before the end. Start it again with --continue to resume it.
+The cache is kept: nothing has to be restored or deleted by hand.

@@ -1,0 +1,1 @@
+System.register(["./2c1ab0fe-legacy.Cv3aOmy9.js"],function(e,t){"use strict";var r,n;return{setters:[e=>{r=e.T,n=e.F}],execute:function(){e("u",function(){const e=r(!0);return n(()=>()=>{e.current=!1},[]),e})}}});
